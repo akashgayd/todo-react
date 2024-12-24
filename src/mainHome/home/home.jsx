@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Home.css"
+import "./home.css"
 import TodoInput from '../../components/todoInput';
 import Todolist from '../../components/todolist';
 import { signOut } from 'firebase/auth';
