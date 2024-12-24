@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+  
+  }
+  .main-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://ieltsmaterial-content.s3.ap-south-1.amazonaws.com/blogContent/blogContent/ielts/blog/banner-images//ielts_ielts-speaking-part-1-2-3-topic-daily-routine-sample_1722853540.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+
+  }
+  .btn-todo{
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgb(104, 217, 172);
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+  }
+  .center-container{
+  
+    width: 350px;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+
+  }
+
+  .app-heading{
+    padding: 4px;
+    color: rgb(9, 8, 8);  
+    /* text-align: center; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+  }
+  .input-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .input-box-todo{
+    margin-left: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 14px;
+border: 1px solid lightpink;
+    padding-left: 10px;  
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+  .add-btn{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:none;
+    background-color:#316fc1;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 7px; 
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+    transition: 0.3s;
+  }
+  .add-btn:active{
+    box-shadow: none;
+  }
+  .list-container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .list-item{
+    list-style-type: none;
+    /* background-color: #596e8b; */
+   border: 1PX SOLID lightblue;
+    color:rgb(0, 0, 0);
+    padding:3px;
+    padding-left: 5px;
+    border-radius: 5px; 
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+  }
+  .icons{
+    position: absolute;
+    right: 10px;
+  }
+  .icons i{
+    margin: 4px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.1s;   
+  }
+  .icons i:hover{
+    transform: scale(1.2);  
+  }
+  .icon-delete:hover{
+    color: red;
+  }
+  
+
+  @media (min-width:1024px) {
+    
+
+
+    .center-container{
+  
+      width: 450px;
+      background-color: aliceblue;
+      color: rgb(223, 223, 223);
+      box-shadow: 1px 1px 10px black;
+      padding: 10px;
+      border-radius: 10px;
+      overflow: auto;
+  
+    }
+
+ 
+
+    .app-heading{
+
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+  }
+}
